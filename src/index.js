@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Hero from './Components/Hero/Hero';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router } from 'react-router-dom';
 
@@ -11,6 +12,7 @@ root.render(
     <Router basename={process.env.PUBLIC_URL}>
     <App/>
     </Router>
+    <Hero/>
   </React.StrictMode>
 );
 
